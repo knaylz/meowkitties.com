@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8" />
+    <title>Kristina Naylor</title>
+    <meta name="description" content="A website about Blackie.">
+    <meta name="keywords" content="Black Cats Rule">
+    <meta name="author" content="Kristia Naylor">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+    <link rel='icon' href='images/favicon.png' type='image/x-icon'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body class="site">
+    <figure class="site-casino">
+    <img class="background" src="images/casino-background.png" alt="casino background" title="Casino Background"/>
+    <header>
+        <figure class="logo">
+           <a href="index.html">
+             <img class="logo" src="images/blackie-the-cat-logo.png" alt="blackie the cat logo" title="Blackie The Cat Logo"/>
+           </a>
+        </figure>
+        <nav class="container blue circleBehind">
+          <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gametime.html">Gametime</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gametime.html">Gametime</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </header>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Blackie Jack Tic Tac Toe Instructions</h1>
+        <p class="transcripts-modal-p">[Blackie in cat voice] Step right up, ladies and gentlemen, and try your hand at a world-famous game. Well, maybe it's not quite famous, but it gives you the excitement of Black Jack with the simplicity of Tic Tac Toe. Ok, it's just Tic Tac Toe with a cool name, but you will love it! A new twist on a game we all know and love is even more fun here at my catsino. Only here can you play from the comfort of your own home with the biggest perk of all, the image of me in a dealer visor and shirt. If you find yourself losing, no worries! Just look at me and you will be happy again. </p>
+        <p class="transcripts-modal-p">Ok, time to go over the rules here. First, you need a friend to play with you, because this is a two-person game. Want to play alone? Well, you can, but you will always win! That is uncanny, actually, because it is our motto here at Blackie Catsino, you are always a winner! Go ahead and play a game on us as one player. Experience the feeling of being a winner and remember to come back anytime you need a little bit of happiness again!</p>
+        <p class="transcripts-modal-p">Let us get back to the rules again. Each player will be assigned a letter (either X or O). The first player always gets X. To start the game, Player 1 must click any box, which will claim the space and mark it with X. Player 2 then gets a turn, and must click any other box beside the one already claimed by Player 1. The letter O will appear in the box claimed by Player 2. Each play continues to take turns until three letters in a row are claimed. The row can be any direction,  diagonal, across, or horizontal.</p>
+      </div>
+    </div>
+    <button id="myBtn">Read Game Rules</button>
+    <div id="container">
+          <div class="header">Blackie Jack</br>Tic Tac Toe</div>
+          <div id="board">
+              <table>
+                <tr id="row1">
+                  <td id=1 class="square"></td>
+                  <td id=2 class="square v"></td>
+                  <td id=3 class="square"></td>
+                </tr>
+                <tr id="row2">
+                  <td id=4 class="square h"></td>
+                  <td id=5 class="square v h"></td>
+                  <td id=6 class="square h"></td>
+                </tr>
+                <tr id="row3">
+                  <td id=7 class="square"></td>
+                  <td id=8 class="square v"></td>
+                  <td id=9 class="square"></td>
+                </tr>
+              </table>
+            </div>
+        <div style="text-align:center;"><button class="invisible" id="newGame">New game!</button>
+        </div>
+
+       </div>
+    <header>
+        <figure class="logo">
+           <a href="index.html">
+             <img class="logo" src="images/blackie-the-cat-logo.png" alt="blackie the cat logo" title="Blackie The Cat Logo"/>
+           </a>
+        </figure>
+        <nav class="container blue circleBehind">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gametime.html">Gametime</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gametime.html">Gametime</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </header>
+      <img class="blackie-dealer-img" src="images/blackie-dealer.png" alt="blackie casino dealer" title="Blackie Casino Dealer"/>
+
+    <footer>
+      <p class="copyright">Website by Kristina Naylor</p>
+    </footer>
+
+    <script src="Scripts/hamburger.js"></script>
+    <script src="Scripts/tic-tac-toe.js"></script>
+    <script src="Scripts/modal.js"></script>
+
+  </figure>
+ </body>
+</html>
