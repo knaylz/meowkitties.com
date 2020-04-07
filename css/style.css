@@ -1,3 +1,79 @@
+* {
+  font-family: 'Alatsi', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.photos-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/**** MODAL POP UP START ***/
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute;
+  z-index: 100000000000000000;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  display: absolute;
+  z-index: 100000;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.transcripts-modal-p {
+  text-align: left;
+}
+
+.transcripts-modal-span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#myBtn {
+  width: 200px;
+  height: 40px;
+  background-color: #FC4349;
+  color: #000;
+  font-size: 1.5rem;
+  border-radius: 1%;
+  margin-top: 15%;
+  margin-left: 15%;
+  position: absolute;
+  z-index: 10000000000000000000;
+}
+/** MODAL POPUP END **/
+
 /* ************** GLOBAL THINGS START ************** */
 .logo {
   width: 26%;
@@ -452,3 +528,420 @@ flex-wrap: wrap;
 }
 
 /* ********************* PHOTOS PAGE END ********************* */
+.blackie-main {
+  width: 30%;
+  margin-left: 20%;
+}
+
+.home-images {
+  display: flex;
+}
+
+/* *************** GLOBAL THINGS START **************** */
+@media(min-width: 320px) {
+  nav.container ul {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .cross {
+    display: block;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  copyright{
+    font-size: .5rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+
+  p {
+    font-size: .75rem;
+  }
+
+}
+
+@media(min-width: 670px) {
+  .logo {
+    width: 30%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+
+  p {
+    font-size: 1rem;
+  }
+
+}
+
+@media(min-width: 924px) {
+  nav.container ul {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .cross {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+
+  copyright{
+    font-size: .75rem;
+  }
+}
+/* *************** GLOBAL THINGS END **************** */
+/* *************** HOME PAGE START ******************* */
+@media(min-width: 320px){
+  .blackie-home-img {
+    max-width: 30%;
+  }
+
+  .blackie-string-img {
+    max-width: 10%;
+  }
+}
+
+@media(min-width: 1685px){
+  .blackie-home-img {
+    max-width: 80%;
+  }
+
+  .blackie-string-img {
+    max-width: 90%;
+  }
+}
+
+/* ************ HOME PAGE END ********************* */
+/* ************ ABOUT PAGE START ****************** */
+
+@media(min-width: 320px){
+  .blackie-business-img {
+    display: none;
+  }
+
+  #myBtn {
+    width: 100px;
+    height: 20px;
+    font-size: .5rem;
+    margin-top: 15%;
+  }
+
+  .chart {
+  width: 150px;
+  height: 150px;
+  display: block;
+  top: 29.9%;
+  left: 105%;
+ }
+}
+
+@media(min-width: 349px){
+
+  .chart {
+  top: 30%;
+  left: 99%;
+ }
+}
+
+@media(min-width: 382px){
+  .chart {
+  top: 32%;
+  left: 85%;
+ }
+}
+
+@media(min-width: 455px){
+  .blackie-business-img {
+    display: none;
+  }
+
+  #myBtn {
+    width: 100px;
+    height: 20px;
+    font-size: .5rem;
+    margin-top: 25%;
+  }
+
+  .chart {
+  top: 35%;
+  left: 85%;
+ }
+}
+
+@media(min-width: 523px){
+
+  .chart {
+  top: 40%;
+  left: 85%;
+ }
+
+}
+
+@media(min-width: 740px){
+  .chart {
+    top: 35%;
+    left: 70%;
+ }
+
+ .blackie-business-img {
+   display: block;
+   max-width: 30%;
+ }
+
+  #myBtn {
+    width: 200px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+
+  .chart {
+  width: 250px;
+  height: 250px;
+ }
+
+
+@media(min-width: 900px){
+  .chart {
+  top: 30%;
+  left: 65%;
+ }
+
+
+@media(min-width: 1100px){
+  .blackie-business-img {
+  max-width: 80%;
+ }
+
+  .chart {
+  width: 450px;
+  height: 450px;
+  margin-right: 2%;
+  left: 50%;
+  top: 55%;
+ }
+}
+/* ************ ABOUT PAGE END ******************** /
+/* ************ GAMETIME PAGE START **************** */
+
+@media(min-width: 320px) {
+.blackie-dealer-img {
+  display: none;
+ }
+
+.site-casino {
+  font-size: .5rem;
+ }
+
+#board {
+  margin-right: 10%;
+ }
+
+.square {
+  width: 50px;
+  height: 50px;
+ }
+
+#container {
+    max-width: 100%;
+    position: absolute;
+    z-index: 100;
+    margin-top: 16%;
+    margin-left: 40%;
+ }
+}
+
+@media(min-width: 470px) {
+  #container {
+      margin-top: 16%;
+  }
+}
+
+@media(min-width: 1100px) {
+.blackie-dealer-img {
+  width: 30%;
+  margin-top:25%;
+  margin-left:8%;
+  display: block;
+ }
+
+.site-casino {
+  font-size: 1rem;
+ }
+
+.square {
+  width: 75px;
+  height: 75px;
+ }
+
+#board {
+  margin-right: 10%;
+ }
+
+#container {
+    max-width: 100%;
+    position: absolute;
+    z-index: 100;
+    margin-top: 20%;
+    margin-left: 45%;
+ }
+}
+
+@media(min-width: 1450px) {
+.blackie-dealer-img {
+  position: absolute;
+  z-index:100;
+  margin-top:25%;
+  margin-left:8%;
+ }
+
+#container {
+    max-width: 100%;
+    position: absolute;
+    z-index: 100;
+    margin-top: 20%;
+    margin-left: 45%;
+ }
+
+.square {
+  width: 100px;
+  height: 100px;
+ }
+}
+
+/* ************ GAMETIME PAGE START END **************** */
+/* ************ CONTACT PAGE START START **************** */
+
+@media(min-width: 320px) {
+  .space-image {
+    margin: 15% 0% 5%;
+    padding-left:20%;
+    width: 40%;
+  }
+
+  .content-section {
+    width: 75%;
+    padding: 0% 5%;
+    margin: 0% 5%;
+    font-size: 1rem;
+  }
+}
+
+@media(min-width: 650px) {
+  .space-image {
+    margin: 15% 0% 5%;
+    padding-left:30%;
+    width: 50%;
+  }
+}
+
+@media(min-width: 800px) {
+  .space-image {
+    margin: 15% 0% 5%;
+    padding-left:30%;
+    width: 70%;
+  }
+
+  .content-section {
+    width: 75%;
+    padding: 0% 5%;
+    margin: 0% 5%;
+  }
+}
+
+@media(min-width: 1100px) {
+.space-image {
+  padding-left:50%;
+}
+}
+
+@media(min-width: 1200px) {
+.space-image {
+  margin: 8% 4% 10%;
+  padding-left:50%;
+  max-width: 80%;
+  padding-left:80%;
+}
+
+.contact-section {
+  padding-left: 10%;
+  width: 80%;
+ }
+}
+
+@media(min-width: 1500px) {
+.space-image {
+  margin: 25% 15% 10% 0%;
+  padding-left:8%;
+  width: 90%;
+}
+
+.contact-section {
+  width: 50%;
+  padding: 1% 5% 0% 10%;
+ }
+}
+
+@media(min-width: 1734px) {
+  .space-image {
+    margin: 25% 15% 10% 0%;
+    padding-left:15%;
+    width: 90%;
+  }
+
+  .contact-section {
+    width: 50%;
+    padding: 1% 10% 0% 10%;
+  }
+}
+/* **************** CONTACT PAGE END ******************** */
+/* ***************** PHOTOS PAGE START **************** */
+@media(min-width: 320px){
+  .photos-h1 {
+      margin-top: 20%;
+  }
+}
+
+@media(min-width: 768px){
+  .photos-h1 {
+      margin-top: 15%;
+  }
+}
+
+@media(min-width: 1050px){
+  .photos-h1 {
+      margin-top: 10%;
+  }
+}
+
+/* ***************** PHOTOS PAGE END **************** */
