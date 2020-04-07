@@ -256,3 +256,16 @@ a {
   max-width: 90%;
 }
 /* ********************* HOME PAGE END ********************* */
+/* ********************* ABOUT PAGE START ********************* */
+.site-business {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font: 1.8rem 'Open Sans', sans-serif;
+}
+
+.blackie-business-img {
+  position: absolute;
+  z-index:100;
+  margin-top:25%;
+}
