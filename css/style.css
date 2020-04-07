@@ -306,6 +306,7 @@ a {
   justify-content: center;
   }
 
+/* ********************* HOME PAGE END ********************* */
 .site-home {
   display: flex;
   flex-direction: column;
@@ -331,7 +332,7 @@ a {
   margin-left:80%;
   max-width: 90%;
 }
-/* ********************* HOME PAGE END ********************* */
+
 /* ********************* ABOUT PAGE START ********************* */
 .site-business {
   display: flex;
@@ -345,6 +346,7 @@ a {
   z-index:100;
   margin-top:25%;
 }
+
 /* ******** CIRCLE CHART START ******* */
 @import url(//fonts.googleapis.com/css?family=Oswald:400);
 body {
@@ -528,6 +530,7 @@ flex-wrap: wrap;
 }
 
 /* ********************* PHOTOS PAGE END ********************* */
+
 .blackie-main {
   width: 30%;
   margin-left: 20%;
