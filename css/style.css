@@ -346,3 +346,90 @@ body {
 /* ******* CIRCLE CHART END ****** */
 
 /* ********************* ABOUT PAGE END ********************* */
+/* ********************* GAMETIME PAGE START ********************* */
+.site-casino {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font: 1.8rem 'Open Sans', sans-serif;
+}
+
+.tic-tac-toe-section {
+  display: flex;
+  margin-top: 20%;
+}
+
+/* ***** START TIC TAC TOE ***** */
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.square{
+    width:100px;
+    height:100px;
+}
+
+.v{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+
+.h{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+
+#board {
+    display: inline-block;
+    margin-top:2%;
+
+}
+.invisible {
+    visibility:hidden;
+}
+.visible {
+    visibility:visible;
+}
+
+table {
+    background-color: #FAFAFA;
+    text-align:center;
+      font: 400 30px/1.5 'Pacifico', Helvetica, sans-serif;
+}
+tic-tac-toe-p {
+    margin-left:25%;
+    margin-right:25%;
+}
+/* ***** STOP TIC TAC TOE ***** */
+
+.blackie-dealer-img {
+  position: absolute;
+  z-index:100;
+  margin-top:25%;
+  margin-left:8%;
+}
+
+/* ********************* GAMETIME PAGE END ********************* */
+/* ********************* CONTACT PAGE START ********************* */
+#gradient
+{
+max-width: 100%;
+padding: 10% 0 2%;
+margin: 0px;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.blackie-signature-figure {
+  padding-left: 40%;
+  width: 80%;
+}
+
+.space-image {
+  margin: 30% 11% 10%;
+  max-width: 100%;
+}
+
+/* ********************* CONTACT PAGE END ********************* */
