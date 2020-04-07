@@ -433,3 +433,22 @@ flex-wrap: wrap;
 }
 
 /* ********************* CONTACT PAGE END ********************* */
+/* ********************* PHOTOS PAGE START ********************* */
+.photos-h1 {
+  text-align: center;
+}
+
+.photos-figure {
+  width: 80%;
+}
+
+.photos-text-section {
+  padding: 1% 7% 0%;
+}
+
+/* ACTUAL PHOTOS */
+.photos-page-img {
+  max-width: 100%;
+}
+
+/* ********************* PHOTOS PAGE END ********************* */
